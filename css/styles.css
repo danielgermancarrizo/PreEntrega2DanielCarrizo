@@ -15,6 +15,7 @@ img{
 a{
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
+    
 }
 
 h1, h2, h3, h4,h5{
@@ -187,7 +188,7 @@ i{
     border: none;
     text-transform: uppercase;
     color: black;
-    padding: 15px 15px;
+    padding: 5px 13px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -211,7 +212,7 @@ i{
     border: none;
     text-transform: uppercase;
     color:#fade4f;
-    padding: 15px 15px;
+    padding: 5px 13px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -221,6 +222,11 @@ i{
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.5s;
     border-radius: 6px;
+}
+
+.my-button-more a{
+    text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -406,7 +412,7 @@ i{
         text-align: center;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 10vh 35vh 35vh 35vh 35vh;
+        grid-template-rows: 15vh 35vh 35vh 35vh 35vh;
         grid-template-areas: 
         "topics"
         "sec1"
@@ -419,16 +425,19 @@ i{
         margin: 40px;        
     }
 
-    .sect .topics h1{
+    .topics h1{
         color: white;
         font-size: 1.5rem;
         text-align: center;
+        line-height: 22px;
     }
 
     .topics{
-        margin:0px;
-        padding: 10px;
+        grid-area: topics;
+        margin: 0px;
     }
+
+
 
     .topics h2{
         display: none;
